@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junyi Shen</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background: #5D9CEC;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin: 0;
+            font-size: 1.2em;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        section {
+            margin: 20px 0;
+        }
+
+        section h2 {
+            color: #5D9CEC;
+        }
+
+        .projects, .contact {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .project {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background: #fff;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Junyi Shen</h1>
+
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Junyi Shen, a motivated Computer Science student at LaSalle College </p>
+            </section>
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>Shopping App</h3>
+                    <p>Designed and implemented a mobile shopping app using Swift UI, featured a user-friendly interface and smooth navigation to enhance the online shopping experience.</p>
+                    <a href="https://github.com/Junyi-Shen/iOS" target="_blank">View Project</a>
+                </div>
+                <div class="project">
+                    <h3>Library Django Web App</h3>
+                    <p>Created a comprehensive library application using Python and Django, developed features for book cataloing.</p>
+                    <a href="https://github.com/Junyi-Shen/python" target="_blank">View Project</a>
+                </div>
+                <div class="project">
+                    <h3>Property Rental Management Website</h3>
+                    <p>Created a user-friendly property rental managemnt website using SQL and ASP.NET mvc Framework.</p>
+                    <a href="https://github.com/Junyi-Shen/Web_Server" target="_blank">View Project</a>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <div class="contact">
+                <p>Email: <a href="mailto:wakaba04159@gmail.com">wakaba04159@gmail.com</a></p>
+                <p>Phone: +1 (438)929-5315</p>
+                <p>LinkedIn: <a href="https://linkedin.com/in/junyi-shen-49a822332" target="_blank">linkedin.com/in/junyi-shen-49a822332</a></p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Junyi Shen. All rights reserved.</p>
+    </footer>
+</body>
+</html>
